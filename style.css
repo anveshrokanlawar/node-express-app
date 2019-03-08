@@ -1,0 +1,113 @@
+body
+{
+    height:100%;
+    padding-top: 5rem;
+}
+.bg { 
+    /* The image used */
+    background-image: url("img(11).jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.flexformat
+{
+    display:flex;    
+}
+.section1
+{
+margin:3%;
+float: left;
+border-style: solid;
+padding: 2%;
+width:72%;
+font-family: 'Times New Roman', Times, serif;
+font-style:italic;
+}
+h1{
+    border-style: inset;
+    padding: 0.5em;
+    text-align: left;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50;
+    width:100;
+  }
+  
+aside{
+    border-style: outset;
+    padding: 1em;
+    margin: 1em;
+    border-color: chocolate;
+    background-color: darkcyan;
+    font-style: italic;
+    border-radius: 8%;
+ }
+ table, th, td {
+    border: 2.5px solid black;
+  }
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+#section2{
+    float: right;
+    clear: both;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 2%;
+    width: 60%;
+    margin-right: 2em;
+    margin-bottom:4em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+#section3{
+    clear: both;
+    border-style:dotted;
+    border-radius: 2em;
+    padding: 2%;
+    width: 60%;
+    margin-left: 3em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lavenderblush;
+
+ }
+.dp
+{
+    float: left;
+    width: 19%;
+}
+input{
+    clear:both;
+    width:50%;
+    padding:-1%;
+}
+label{
+    width:18%;
+}
+.formstyle
+{
+    width:50%;
+    margin-top:4%;
+    margin-left:4%;
+
+}
+#Query
+{
+    height:10%;
+    padding: 3em;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -6%; 
+}
